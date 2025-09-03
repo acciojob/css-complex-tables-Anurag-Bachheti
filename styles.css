@@ -1,17 +1,20 @@
-table{
-	border-collapse: collapse;
-	width: 100%;
-}
-th, td{
-	border: 1px solid orange;
-	padding: 3px 5px;
-	text-align: center;
-}
-th{
-	 background-color: #888888;
+table {
+      border-collapse: collapse;
+      width: 100%;
+      border-left: 1px solid orange;
+      border-bottom: 1px solid orange;
+    }
+    th, td {
+      border-top: 1px solid orange;
+      border-right: 1px solid orange;
+      padding: 3px 5px;
+      text-align: center;
+    }
+    th {
+      background-color: #888888;
       color: white;
-}
-.sub-total-text {
+    }
+    .sub-total-row .sub-total-text {
       text-align: center;
       font-weight: bold;
     }
